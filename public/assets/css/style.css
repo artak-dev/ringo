@@ -1,0 +1,67 @@
+.logo-section{
+    display: flex;
+    justify-content: center;
+    background-color: #b9204c;
+}
+
+.table-section{
+    width: 90%;
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+
+.products-input{
+    border: 3px solid #b9204c;
+    border-radius: 20px;
+    width: 100px;
+    padding: 5px 10px;
+}
+
+.btn-get-report{
+    background-color: #b9204c;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+.red-border{
+    background-color: #d44b4b!important;
+    color: white;
+}
+.warning-section{
+    color: white;
+    background-color: #ff9700;
+    height: 70px;
+    width: 360px;
+    padding: 10px 10px 0 10px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    font-weight: 800;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+
+.download-report{
+    background-color: #2cd42c;
+    color: white;
+    padding: 9px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 260px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+    display: none;
+}
+
+.errors{
+    width: 400px;
+    margin:  0 auto;
+    color: red;
+}
